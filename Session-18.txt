@@ -1,0 +1,87 @@
+/*
+ * Session_18.c
+ *
+
+ * Created: 4/22/2022 2:29:40 PM
+
+ * Author : Aya
+
+ */ 
+
+#include "BitMath.h"
+
+#include "StdTypes.h"
+
+#include "Reg.h"
+
+#include "Dio.h"
+
+
+
+int main(void) 
+{
+
+	//trun buzzer off
+
+	PinMode(PA3,OUTPUT);
+	
+PinWrite(PA2,LOW);	
+	
+
+/*	
+	
+//to light up led 1
+	
+// to make PC0 output
+	
+SetBit(DDRC,7);	
+	
+//to make PC2 High
+	
+SetBit(PORTC,7);
+
+
+	
+//to light up led 2
+	
+// to make PC0 output
+	
+SetBit(DDRD,3);	
+	
+//to make PC2 High
+	
+SetBit(PORTD,3);
+
+*/
+	
+PinMode(PA3,OUTPUT);
+	
+while (1) 
+    
+{
+	
+/*	
+u16  x=0;
+		
+PinWrite(PA3,HIGH);
+		
+while(x<65500)
+			
+x++;
+		
+PinWrite(PA3,LOW);
+		
+x=0;
+		
+while(x<65500)
+			
+x++;
+		
+PinWrite(PA3,HIGH);
+
+		*/
+  
+  }
+
+}
+
